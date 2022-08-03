@@ -720,6 +720,24 @@ color: var(--cor3);
   .subtitulopag02{
     text-align: center;
   }
+
+  .caixa{
+    margin-left: -95px;
+    max-width: 550px;
+    min-height: 200px;
+    height: 230px;
+    padding: 0 10%;
+    display: -webkit-box;
+    align-items: center;
+    grid-area: "item";
+    grid-column: "item";
+  }
+
+  .active-link {
+    padding: 3px;
+    font-size: 14px;
+}
+
   .caixa_pag02{
     
     margin-left: -20px;
