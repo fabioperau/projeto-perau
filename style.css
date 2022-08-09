@@ -172,11 +172,11 @@ h1{
 
 /* Caption text */
 .text {
-  color: #f2f2f2;
+  color: black;
   font-size: 15px;
   padding: 8px 12px;
   position: absolute;
-  bottom: 8px;
+  bottom: -24px;
   width: 100%;
   text-align: center;
 }
@@ -378,7 +378,7 @@ article{
 
 
 .local{
-    margin-left: 30px; 
+    margin-left: 26px; 
     flex-direction: column;
     top: 0;
 }
@@ -413,6 +413,7 @@ article{
   margin-left: 20px;
   text-indent: 30px;
   color: black;
+  text-align: justify;
 }
 
 .category:before {
@@ -632,6 +633,9 @@ color: var(--cor3);
   grid-area: "item";
   grid-column: "item";
 }
+#icon-caixa {
+  margin-left: -18px;
+}
 .menu_pag04{
   width: 190px;
   position: relative;
@@ -714,7 +718,7 @@ color: var(--cor3);
   .h1_pag02{
     margin: 30px 100px 30px 11px;
     text-align: center;
-    font-size: 18px;
+    font-size: 16px;
   }
   .subtitulopag02{
     text-align: center;
@@ -775,8 +779,8 @@ color: var(--cor3);
   }
   .menu_pag03{
 
-    bottom: 161px;
-    left: 63px;
+    bottom: 148px;
+    left: -17px;
  
   }
 
