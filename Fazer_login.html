@@ -12,11 +12,11 @@
 <body id="login-pag">
     <div id="login-container">
         <h1>Login</h1>
-        <form action="">
+        <form action="" method="post">
             <label for="email">E-mail</label>
             <input type="email" name="email" id="email" placeholder="Digite seu e-mail" autocomplete="off">
             <label for="password">Senha</label>
-            <input type="password" name="password" id="password" placeholder="Digite sua senha">
+            <input type="password" name="password" id="password" placeholder="Digite sua senha" required minlength="8" maxlength="8">
             <a href="#" id="forgot-pass">Esqueceu a senha?</a>
             <input type="submit" value="Login">
         </form>
