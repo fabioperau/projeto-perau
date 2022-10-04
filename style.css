@@ -216,7 +216,7 @@ h1{
 
 
 
-h2{
+#pergunta{
   margin-bottom: 20px;
   color: var(--cor3);
   padding-left: 57px;
@@ -475,40 +475,18 @@ h5{
   box-shadow: inset 1px -1px 5px black;
 }
 
-
-/* Contatos paginas 02 */
-
-
+/* Contatos paginas 02 sobre nos */
 .h3_pag02{
   color: white;
   text-align: center;
   padding: 10px;
+  margin: auto;
 }
 .h1_pag02{
-    margin: 30px 100px 30px -25px;
-    color: var(--cor3);
-    padding-left: 57px;
-    text-align: center;
-}
-.subtitulopag02{
-  margin-bottom: 30px;
+  margin: 30px 0px 30px 0px;
   color: var(--cor3);
-  padding-left: 29px;
+  text-align: center;
 }
-.p_pag02{
-  color: black;
-  text-align: justify;
-  margin-left: 30px;
-  margin-right: 30px;
-}
-.p_pag03{
-  color: black;
-  text-align: justify;
-  margin-left: 30px;
-  text-indent: 30px;
-  margin-right: 30px;
-}
-
 .container_pag02{
   width: auto;
   margin: 0 10%;
@@ -516,23 +494,123 @@ h5{
   border: 0px solid black;
   display: grid;
   grid-template-areas: 
+  "item";
+}
+.subtitulopag02{
+  color: var(--cor3);
+  margin: auto;
+  text-align: center;
+}
+.p_pag02{
+  color: black;
+  text-align: justify;
+  text-indent: 30px;
+  margin: 30px 70px 30px 70px; 
+  padding: 20px 20px 20px 20px; 
+}
+
+.cont_pag02{
+  margin: 30px 0px 30px 0px;
+  color: var(--cor3);
+  text-align: center;
+}
+
+#wp-icon{
+    position: relative;
+    width: 60px;
+    height: 60px;
+    top: -63px;
+    right: -104px;
+    background-color: black;
+    opacity: 1;
+}
+
+#wp-icon:hover {
+  background-color: var(--cor0);
+  color: var(--cor3);
+  opacity: 0.7;
+}
+.wp{
+  position: relative;
+  width: 68px;
+  height: 68px;
+  top: -149px;
+  right: -180px;
+  margin: -90px 4px 38px 51px;
+  background-color: var(--cor3);
+  box-shadow: 2px 3px 8px black;
+  padding: 5px;
+  color: white;
+  border-radius: 20px;
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 1em;
+}
+
+.wp:hover {
+  background-color: var(--cor0);
+  color: var(--cor3);
+}
+.menu_p:hover {
+  background-color: var(--cor0);
+  color: var(--cor3);
+}
+.menu_pag02{
+  position: relative;
+  bottom: 45px;
+  background-color: var(--cor3);
+  box-shadow: 2px 3px 8px black;
+  padding: 10px;
+  color: white;
+  border-radius: 20px;
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 1em;
+}
+.menu_pag02:hover {
+  background-color: var(--cor0);
+  color: var(--cor3);
+  }
+  #menu-volta{
+    margin: auto;
+    text-align: center;
+  }
+/* Contatos paginas 03*/
+
+/* Contatos paginas 03*/
+
+.container_pag03{
+  width: auto;
+  margin: 0 10%;
+  justify-content: center;
+  border: 0px solid black;
+  grid-template-areas: 
   "item item";
 }
 
-.caixa_pag02{
-  display: inline-block;
+.caixa_pag03{
   position: relative;
-  max-width: 550px;
-  min-height: 200px;
   height: 230px;
   flex-direction: column;
   top: 0;
 }
 
-.caixa_pag02 img{
+.subtitulopag03{
+  margin-bottom: 30px;
+  color: var(--cor3);
+  text-align: center;
+}
+.p_pag03{
+  color: black;
+  text-align: justify;
+  margin-left: 30px;
+  margin-right: 30px;
+}
+
+.caixa_pag03 img{
   width: 100%;
   position: absolute;
-  top: 122px;
+  top: 153px;
   right: -365px;
   font-size: 40px;
   color: black;
@@ -554,101 +632,6 @@ h5{
   font-weight: bold;
   font-size: 1em;
 }
-
-#wp-icon{
-  position: relative;
-  width: 68px;
-  height: 68px;
-  top: -187px;
-  right: -276px;
-  background-color: black;
-  opacity: 1;
-}
-
-#wp-icon:hover {
-  background-color: var(--cor0);
-  color: var(--cor3);
-  opacity: 0.7;
-}
-.wp{
-  position: relative;
-  width: 68px;
-  height: 68px;
-  top: -102px;
-  right: -180px;
-  margin: -90px 4px 38px 51px;
-  background-color: var(--cor3);
-  box-shadow: 2px 3px 8px black;
-  padding: 5px;
-  color: white;
-  border-radius: 20px;
-  text-decoration: none;
-  font-weight: bold;
-  font-size: 1em;
-}
-
-.wp:hover {
-  background-color: var(--cor0);
-  color: var(--cor3);
-}
-.menu_p:hover {
-  background-color: var(--cor0);
-  color: var(--cor3);
-}
-
-
-/* Contatos paginas 03 */
-
-
-.container_pag03{
-  width: auto;
-  margin: 0 10%;
-  justify-content: center;
-  border: 0px solid black;
-  display: grid;
-  grid-template-areas: 
-  "item";
-}
-
-.subtitulopag03{
-  margin-bottom: 20px;
-  color: var(--cor3);
-  padding-left: 29px;
-  margin-left: -56px;
-}
-.caixa_pag03{
-  display: inline-block;
-  position: relative;
-  max-width: 550px;
-  min-height: 200px;
-  top: 100px;
-  right: 70px;
-  height: 230px;
-  flex-direction: column;
-  top: 0;
-  margin-bottom: 80px;
-}
-
-.menu_pag03{
-  width: 190px;
-  position: relative;
-  bottom: 111px;
-  left: 96px;
-  margin: -90px 4px 38px 64px;
-  background-color: var(--cor3);
-  box-shadow: 2px 3px 8px black;
-  padding: 10px;
-  color: white;
-  border-radius: 20px;
-  text-decoration: none;
-  font-weight: bold;
-  font-size: 1em;
-}
-.menu_pag03:hover {
-  background-color: var(--cor0);
-  color: var(--cor3);
-  }
-
   /* pagina dos serviços 04 */
 
 .container_pag04{
@@ -702,7 +685,7 @@ h5{
     text-align: center;
   }
   .subtitulopag02{
-    text-align: justify;
+    text-align: center;
   }
   .caixa_pag02{
    margin-left: 46px;
@@ -749,11 +732,9 @@ h5{
     justify-content: flex-start;
     grid-template-areas: 
     "item";
-    margin-left: -14px;
   }
   
   .h1_pag02{
-    margin: 30px 100px 30px 11px;
     text-align: center;
     font-size: 16px;
   }
@@ -781,9 +762,8 @@ h5{
   }
   .p_pag02{
 
-    text-align: left;
-    margin-left: 83px;
-    margin-right: 30px;
+    text-align: justify;
+    margin: auto;
   }
   .p_pag03{
     color: black;
@@ -800,6 +780,15 @@ h5{
     right: -0px;
     
   }
+
+  .wp {
+    right: -159px;
+  }
+
+  #wp-icon {
+    right: -77px;
+  }
+  
   .menu_p{
     
     bottom: 67px;
@@ -812,7 +801,7 @@ h5{
     text-align: center;
     padding: 10px;
     font-size: 13px;
-    margin-left: -1px;
+    margin-left: 20px;
   }
   .menu_pag03{
 
