@@ -491,7 +491,7 @@ h5{
     text-align: center;
 }
 .subtitulopag02{
-  margin-bottom: 20px;
+  margin-bottom: 30px;
   color: var(--cor3);
   padding-left: 29px;
 }
@@ -533,7 +533,7 @@ h5{
   width: 100%;
   position: absolute;
   top: 122px;
-  right: -332px;
+  right: -365px;
   font-size: 40px;
   color: black;
   text-shadow: 0px 0px 5px black;
@@ -555,10 +555,45 @@ h5{
   font-size: 1em;
 }
 
+#wp-icon{
+  position: relative;
+  width: 68px;
+  height: 68px;
+  top: -187px;
+  right: -276px;
+  background-color: black;
+  opacity: 1;
+}
 
+#wp-icon:hover {
+  background-color: var(--cor0);
+  color: var(--cor3);
+  opacity: 0.7;
+}
+.wp{
+  position: relative;
+  width: 68px;
+  height: 68px;
+  top: -102px;
+  right: -180px;
+  margin: -90px 4px 38px 51px;
+  background-color: var(--cor3);
+  box-shadow: 2px 3px 8px black;
+  padding: 5px;
+  color: white;
+  border-radius: 20px;
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 1em;
+}
+
+.wp:hover {
+  background-color: var(--cor0);
+  color: var(--cor3);
+}
 .menu_p:hover {
-background-color: var(--cor0);
-color: var(--cor3);
+  background-color: var(--cor0);
+  color: var(--cor3);
 }
 
 
@@ -586,6 +621,8 @@ color: var(--cor3);
   position: relative;
   max-width: 550px;
   min-height: 200px;
+  top: 100px;
+  right: 70px;
   height: 230px;
   flex-direction: column;
   top: 0;
@@ -612,7 +649,7 @@ color: var(--cor3);
   color: var(--cor3);
   }
 
-  /* pagina 04 */
+  /* pagina dos serviços 04 */
 
 .container_pag04{
   width: 100%;
