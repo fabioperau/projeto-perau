@@ -213,9 +213,6 @@ h1{
   to {opacity: 1}
 }
 
-
-
-
 #pergunta{
   margin-bottom: 20px;
   color: var(--cor3);
@@ -409,7 +406,7 @@ article{
 
 .assunto{
   font-size: 1em;
-  margin-left: 20px;
+  margin: 0 30px;
   text-indent: 30px;
   color: black;
   text-align: justify;
@@ -440,8 +437,10 @@ article{
   box-shadow: -1px 1px 10px black;
   display: grid;
   grid-template-areas: "item item item";
+  justify-items: center;
   justify-content: space-evenly;
 }
+
 
 h4{
   font-size: 18px;
@@ -463,6 +462,7 @@ ul{
     "item item";
     height: auto;
     padding: 20px;
+    justify-items: normal;
   }
   
 }
